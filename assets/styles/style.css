@@ -1,0 +1,161 @@
+/* Font link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ---------------
+   Common styles
+------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 52px;
+  color: #3a3a3a;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+footer {
+  background-color: #000000;
+}
+/*----------------
+        Header
+    ----------------*/
+
+header {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  width: 1200px;
+  margin: 0;
+  padding: 0 30px;
+  color: #3a3a3a;
+}
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+  font-size: 16px;
+}
+nav a {
+  font-weight: 600;
+  color: #3a3a3a;
+}
+/* --------------------------------------------------------------------------- */
+/* -----------------------
+       Top Section
+------------------------- */
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 30px;
+}
+.left.side {
+  width: 45%;
+}
+.left p {
+  color: #3a3a3a;
+  font-size: 16px;
+  margin-top: 16px;
+}
+.left .button {
+  background-color: #e02c6d;
+  width: 150px;
+  padding: 10px 15px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
+  align-items: center;
+}
+.left .button a {
+  color: #ffffff;
+  font-weight: bold;
+}
+.right {
+  background: center/96% url("/images/Circle\ design.svg") no-repeat;
+}
+
+/* ------------------------------------------------------ */
+
+/* Sponsers Section */
+.sponsers {
+  margin-top: 30px;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  align-items: center;
+  height: auto;
+}
+
+/* -------------------------------------------------------------- */
+
+/* Article Section */
+.products-content {
+  height: auto;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.product {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product .product-banner img {
+  width: 100%;
+}
+.price {
+  font-size: 24px;
+}
+.product-info {
+  font-size: 14px;
+}
+.product-info .star i {
+  color: orange;
+}
+.product-info .star span,
+.shifting,
+.stok,
+.buyer-protection {
+  color: #787885;
+  font-weight: bold;
+}
+
+/* -------------------------------------------------- */
+.footer {
+  color: #ffffff;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 10px;
+  padding: 20px;
+}
+.footer h2 {
+  font-size: 24px;
+}
+
+.social a i {
+  font-size: 40px;
+  padding: 8px;
+  color: #fff;
+}
